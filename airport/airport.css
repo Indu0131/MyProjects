@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar img{
+    height:80px;
+    padding:10px 0px 10px 100px;
+
+}
+.links{
+    margin-right:150px;
+}
+.links ul{
+    display:flex;
+    gap: 25px;
+    list-style:none;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+a:hover{
+    color:black;
+}
+select{
+    border: none;
+    color: gray;
+    font-size:medium;
+}
+.box1{
+background-image: url("./photos/background.png");
+height: 100vh;
+background-position:center;
+background-size: cover;
+}
+
+.text1{
+    margin-left:200px;
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding-top:300px;
+    
+}
+ 
+span{
+    color:orange;
+}
+
+ .box2{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin:50px;
+}
+
+   .box2 .grid1{
+    display: grid;
+    grid-template-areas:
+    "item1 item2"
+     "item3 item4"
+     "item5 item6";
+     gap:150px;
+  }
+  
+  .text2{
+    font-size: 40px;
+    font-weight:bolder;
+    margin-bottom:40px;
+    color:black;
+   }
+ .text2 span{
+     color: orange;
+ }
+.text3{
+    font-size:20px;
+    text-align: center;
+  font-style:normal;
+}
+
+.box4{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+   margin: 0 400px;
+}
+.a1 img{
+    height:50vh;
+    margin-left:250px;
+}
+
+.text4{
+    font-size:15px;
+    
+}
+
+ .text4 p{
+    font-size:20px;
+    color:gray;
+ }
+
+.text4 h1{
+    font-size:25px;
+    color:black;
+ }
+
+.box5 {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+   margin: 0 150px;
+}
+ .a2 img{
+    height:50vh;
+    
+    
+}
+.text5 p{
+    font-size:20px;
+    color:gray;
+   margin-right:350px;
+}
+.text5 h1{
+    font-size:25px;
+    color:black;
+ }
+
+ .box6{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+   margin: 0 250px;
+}
+.a3 img{
+    height:50vh;
+    
+}
+
+.text6{
+    font-size:15px;
+    margin-left:50px;
+}
+
+ .text6 p{
+    font-size:20px;
+    color:gray;
+ }
+
+.text6 h1{
+    font-size:25px;
+    color:black;
+
+ }
+
+ .box7 {
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+   margin: 0 150px;
+}
+ .a4 img{
+    height:50vh;
+    
+    
+}
+.text7 p{
+    font-size:20px;
+    color:gray;
+   margin-right:350px;
+}
+ .text7 h1{
+    font-size:25px;
+    color:black;
+ }
+
+ .box8
+ {
+   margin:50px;
+    text-align: center;
+ }
+
+ .keycontainer
+ {
+    width:90%;
+   display:flex;
+   justify-content:center;
+   align-items: center;
+   margin-right:200px;
+    padding:10px;
+    gap:20px;
+    
+ }
+ .box9{
+    margin:20 40 0 0;
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    float: left;
+    height:480px;
+ }
+ .box9 img{
+    margin-bottom:10px;
+    width:90%;
+    height:100px;
+    height:auto;
+    border-radius:40px;
+ }
+ .box9 h4{
+    color:black;
+    font-weight:bolder;
+    font-size:25px;
+
+ }
+ .box9 p{
+ color:gray ;
+ font-size:17px;
+ margin-top:10px;
+}
+.box9 button{
+    color:white;
+    background-color: rgb(246, 146, 7);
+    width:140px;
+    height:40px;
+    font-size:15px;
+    border-radius:20px;
+    margin-top:15px;
+}
+.box10{
+    margin:20 40 0 0;
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    float: left;
+    height:480px;
+ }
+ .box10 img{
+    margin-bottom:10px;
+    width:90%;
+    height:100px;
+    height:auto;
+    border-radius:40px;
+ }
+ .box10 h4{
+    color:black;
+    font-weight:bolder;
+    font-size:25px;
+
+ }
+ .box10 p{
+ color:gray ;
+ font-size:17px;
+ margin-top:10px;
+}
+.box10 button{
+    color:white;
+    background-color: rgb(246, 146, 7);
+    width:140px;
+    height:40px;
+    font-size:15px;
+    border-radius:20px;
+    margin-top:15px;
+}
+.box11{
+    margin:20 40 0 0;
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+    float: left;
+    height:480px;
+ }
+ .box11 img{
+    margin-bottom:10px;
+    width:90%;
+    height:200px;
+    height:auto;
+    border-radius:40px;
+ }
+ .box11 h4{
+    color:black;
+    font-weight:bolder;
+    font-size:25px;
+
+ }
+ .box11 p{
+ color:gray ;
+ font-size:17px;
+ margin-top:10px;
+ }
+
+.box11 button{
+    color:white;
+    background-color: rgb(246, 146, 7);
+    width:140px;
+    height:40px;
+    font-size:15px;
+    border-radius:20px;
+    margin-top:15px;
+}
